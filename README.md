@@ -1,1 +1,1 @@
-# SGD-SistemaGesti-nDocumental
+# SGD-SistemaGestiónDocumental
