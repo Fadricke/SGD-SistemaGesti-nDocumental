@@ -24,13 +24,10 @@ Desarrollado en **C# .NET (arquitectura en capas)** y **SQL Server**. Implementa
 
 ## 📷 Capturas de pantalla
 ### 🔑 Login
-![Login](screenshots/login.png)
-
-### 🖥️ Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Login](screenshots/login.PNG)
 
 ### 📂 Gestión de documentos
-![Document List](screenshots/document_list.png)
+![Document List](screenshots/docs.PNG)
 
 ---
 
