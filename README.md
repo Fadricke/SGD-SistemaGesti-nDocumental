@@ -1,26 +1,27 @@
 # 📑 Sistema de Gestión Documental (SGD)
 
-Proyecto: **Proyecto Profesional Informático (PPI)** — Universidad Tecnológica Costarricense (UTC).  
-Desarrollado en **C# .NET (arquitectura en capas)** y **SQL Server**. Implementado y en uso en una institución educativa.
+**Proyecto Profesional Informático (PPI)** — Universidad Tecnológica Costarricense (UTC).  
+Solución desarrollada en **C# (.NET Framework)** con **SQL Server** bajo arquitectura en capas. El sistema fue implementado en una institución educativa y está en uso.
+
+> ⚠️ Nota: el código fuente completo no se publica por razones de confidencialidad. Aquí encontrarás documentación técnica, un esquema de base de datos de ejemplo y recursos para entender la arquitectura y funcionamiento del sistema.
 
 ---
 
 ## 🚀 Características principales
 - Registro, consulta y control de documentos.  
 - Gestión de usuarios, roles y permisos.  
-- Bitácora de accesos y trazabilidad de movimientos.  
-- Generación de reportes en PDF/Excel.  
-- Arquitectura en capas (Datos · Lógica · Presentación).
+- Trazabilidad (bitácora) de accesos y movimientos.  
+- Generación de reportes en PDF.  
+- Arquitectura en capas (Presentación · Lógica · Datos).
 
 ---
 
-## 🛠 Tecnologías
-- Backend: **C# (.NET Framework)**  
-- Base de datos: **SQL Server**  
-- IDE: Visual Studio  
-- Control de versiones: **Git & GitHub**
-
----
+## 🛠 Tecnologías (usadas en la implementación)
+- **Backend:** C# (.NET Framework)  
+- **Base de datos:** SQL Server  
+- **IDE:** Visual Studio  
+- **Gestión de proyectos:** Azure DevOps  
+- **Control de versiones:** GitHub
 
 ## 📷 Capturas de pantalla
 ### 🔑 Login
@@ -31,18 +32,11 @@ Desarrollado en **C# .NET (arquitectura en capas)** y **SQL Server**. Implementa
 
 ---
 
-## ⚙️ Instalación (local)
-1. Clona el repositorio.  
-2. Restaura la base de datos con los scripts en `/db`.  
-3. Abre la solución en Visual Studio y configura la cadena de conexión en `app.config` o `appsettings.json`.  
-4. Compila y ejecuta la aplicación.
+## 📄 Documentación adicional
+Revisa `/docs/architecture.md`, `/docs/database-design.md` y `/docs/user-guide.md` para más detalles técnicos y guía de uso.
 
 ---
 
 ## 👨‍💻 Autor
-**Fauricio Rojas Castro**
-
----
-
-## 📌 Estado
-✅ En uso en una institución educativa.
+**Fauricio Rojas Castro**  
+(Proyecto profesional implementado en una institución educativa)
