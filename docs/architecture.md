@@ -1,17 +1,22 @@
-# Arquitectura del SGD
+# 🏛️ Arquitectura del Sistema - Sistema de Gestión Documental (SGD)
 
-El SGD está diseñado sobre una **arquitectura en capas** (three-tier):  
-- **Presentación (UI)**: formularios WinForms / WPF (según la implementación), interacción con el usuario.  
-- **Lógica de negocio**: validaciones, reglas, servicios que orquestan operaciones.  
-- **Acceso a datos**: repositorios/DAOs que ejecutan queries y llaman a procedimientos almacenados en SQL Server.
+El **Sistema de Gestión Documental (SGD)** fue desarrollado bajo una **arquitectura en capas**, asegurando separación de responsabilidades, escalabilidad y facilidad de mantenimiento.
+
+---
+
+## 🔹 Diagrama de Arquitectura
 
 ```mermaid
-flowchart TB
-  UI[Presentación (UI)]
-  BL[Lógica de Negocio]
-  DAL[Acceso a Datos]
-  DB[(SQL Server)]
+flowchart TD
+  UI["🖥️ Capa de Presentación
+(Windows Forms)"]
+  BLL["⚙️ Capa de Negocio
+  (Reglas de Negocio)"]
+  DAL["💾 Capa de Acceso a Datos
+  (Procedimientos almacenados)"]
+  DB["🗄️ SQL Server
+  (Base de datos)"]
 
-  UI --> BL
-  BL --> DAL
+  UI --> BLL
+  BLL --> DAL
   DAL --> DB
