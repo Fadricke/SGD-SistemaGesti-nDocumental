@@ -33,7 +33,7 @@ Solución desarrollada en **C# (.NET Framework)** con **SQL Server** bajo arquit
 ---
 
 ## 📄 Documentación adicional
-Revisa `/docs/architecture.md`, `/docs/database-design.md` y `/docs/user-guide.md` para más detalles técnicos y guía de uso.
+Revisa `/docs/architecture.md`, `/docs/database-design.md` y `/docs/Manual de usuario SGD.pdf` para más detalles técnicos y guía de uso.
 
 ---
 
