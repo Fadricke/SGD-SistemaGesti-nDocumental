@@ -9,7 +9,7 @@ Se utilizó **SQL Server** como motor de base de datos, con un modelo **relacion
 
 El MER define las principales entidades del sistema y sus relaciones.  
 
-![MER](screenshots/MER-SGD.PNG)
+![MER](screenshots/MER-SGD.png)
 
 ---
 
